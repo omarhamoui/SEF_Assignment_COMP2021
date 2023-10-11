@@ -37,11 +37,19 @@ ________________________________________________________________________________
 
 GROUP WORK DIVISION:
 Omar:
-- Framework + Design + Web application basics
+website functionality: 
+- Browse pet
+- Filter pet 
+-see pets details
+-submit application
+- see application status
+-apply for application
+
+-
 Khiet:
 - Django + Python + Javascript
 Cecilia:
-- Database
+- Database + 
 ________________________________________________________________________________________________________________________________________________________________
 
 PLEASE COMPLETE BY 13/10/2023 AND REVIEW ON 14/10/2023
