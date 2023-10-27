@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>petResc</title>
+</head>
+<body>
+
+
+        <h2>PetResc website</h2>
+        <div class="menu">
+        <a href="" >Services</a>
+        <a href="" >About Us</a>
+        
+
+        <form action="server.php" method="POST">
+        <div class="createAccount">
+            <button class="account" id="account" >Create Account</button><br>
+    
+            <div class="fields" id="fields">
+            <label>Username</label>
+            <input type="email" placeholder="Email address" requried><br>
+    
+            <label>Password</label>
+            <input type="password" placeholder="Enter your password" required><br>
+            
+    
+            <button type="submit">Submit</button>
+         </div>
+         </div>
+
+        </form>
+        <div class="browse">
+           <a href="">
+            <button class="browseAll" >Browse All </button><br>
+           </a>
+         </div>
+
+        <button class="sortsearch" id="sortButton">Sort Search  </button>
+
+    <div class="sort" id="sort">
+        <h5>Animal Type</h5>
+        <input type="checkbox" name="option11" ><label> Dogs</label><br>
+        <input type="checkbox" name="option12" ><label> Cats </label><br>
+        <input type="checkbox" name="option13" ><label> Birds </label>
+
+        <h5>Colour</h5>
+        <input type="checkbox" name="option1" ><label> Black </label><br>
+        <input type="checkbox" name="option2" ><label> Violet </label><br>
+        <input type="checkbox" name="option3" ><label> Russian Blue </label><br>
+        <input type="checkbox" name="option4" ><label> Cinnamon </label><br>
+        <input type="checkbox" name="option5" ><label> Brown </label>
+
+        <h5>Age</h5>
+        <input type="checkbox" name="option14"><label> 1M - 3M </label> <br>
+        <input type="checkbox" name="option6" ><label> 3M - 6M </label><br>
+        <input type="checkbox" name="option7" ><label> 6M - 12M </label><br>
+        <input type="checkbox" name="option8" ><label> 12M - 18M </label><br>
+        <input type="checkbox" name="option9" ><label> 18M - 1Y</label><br>
+        <input type="checkbox" name="option10" ><label> 1Y+ </label>
+     </div>
+
+     
+
+     
+
+    <script src="javaUsers.js"></script>
+</body>
+</html>
